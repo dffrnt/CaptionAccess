@@ -4,8 +4,7 @@ CaptionAccess
 Website for CaptionAccess.com
 
 
-ToDo:
-=============
+###ToDo:
 
 - Light-weight rotating slideshow for Props widget
 - Animated slides for features widget next to the call-to-action
