@@ -7,7 +7,7 @@ Website for CaptionAccess.com
 ToDo:
 =============
 
-- Slideshow for Props
+- Light-weight rotating slideshow for Props widget
 - Animated slides for features widget next to the call-to-action
 - Footer design
 - Logo in SVG with fall-back to PNG
