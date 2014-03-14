@@ -36,18 +36,24 @@ body 										{	background: url(images/header.jpg) no-repeat center center fixe
 .content 									{ 	width: 960px;
 												margin: 0 auto; }
 
-.testimonial .content 						{ 	width: inherit; }
 
-.testimonials 								{ }
+#testimonials 								{ 	overflow: hidden;
+												margin-top: 55px; }
+
+#testimonials .content 						{ 	overflow: hidden; }
+
+#wrapper 									{ 	width: 9000px;
+												position: relative;
+												left: 0; }
 
 .testimonial 								{	padding: 50px;
 												font-style: italic;
-												margin-top: 55px;
 												color: #FFF;
 												font-size: 16px;
 												overflow: auto;
-												float: none;
-												font-weight: 300; }
+												float: left;
+												width: 960px;
+												box-sizing: border-box; }
 
 .testimonial .author 						{ 	float: left;
 												font-style: italic; }
@@ -62,7 +68,8 @@ body 										{	background: url(images/header.jpg) no-repeat center center fixe
 
 .testimonial p 								{ 	line-height: 30px;
 												width: 610px;
-												float: right; }
+												float: right;
+												font-weight: 300; }
 
 .blue 										{	background-color: #5A77CD; }
 .green 										{	background-color: #70C238; }
@@ -128,7 +135,7 @@ body 										{	background: url(images/header.jpg) no-repeat center center fixe
 												top: 8px;
 												left: 218px;
 												position: absolute;
-												width: 200px; }
+												width: 380px; }
 
 #call-to-action-areas .component3 			{ 	padding: 0 5px;
 												font-style: italic;
@@ -139,6 +146,7 @@ body 										{	background: url(images/header.jpg) no-repeat center center fixe
 												letter-spacing: 1px;
 												position: relative;
 												top: 2px;
+												left: -6px;
 												font-size: 19px; }
 
 #nav-bar 									{ 	height: 110px;
@@ -205,7 +213,6 @@ body 										{	background: url(images/header.jpg) no-repeat center center fixe
 												font-size: 18px;
 												text-transform: uppercase;
 												letter-spacing: 1px;
-												/*margin-bottom: 15px;*/
 												font-weight: 700; }
 
 #features .description						{ 	color: #5c5c5c;
@@ -298,3 +305,45 @@ body 										{	background: url(images/header.jpg) no-repeat center center fixe
 #contact li p 								{ 	font-weight: 300;
 												font-size: 18px;
 												line-height: 20px; }
+
+#typed-cursor{
+												opacity: 1;
+												font-weight: 100;
+												-webkit-animation: blink 0.7s infinite;
+												-moz-animation: blink 0.7s infinite;
+												-ms-animation: blink 0.7s infinite;
+												-o-animation: blink 0.7s infinite;
+												animation: blink 0.7s infinite;
+}
+
+@-keyframes blink{
+												0% { opacity:1; }
+												50% { opacity:0; }
+												100% { opacity:1; }
+}
+
+@-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
