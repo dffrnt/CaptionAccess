@@ -9,7 +9,7 @@ var
 	scrollRatio
 
 function reposition() {
-	$header.css( 'padding-top', window.innerHeight - $header.height() - $navbar.height() - 50 )
+	$header.attr( 'class' )? '' : $header.css( 'padding-top', window.innerHeight - $header.height() - $navbar.height() - 50 )
 	scrollThreshold = $navbar.offset().top + $navbar.height()/2 // calculate scrollThreshold ONLY after the header has been repositioned
 }
 
