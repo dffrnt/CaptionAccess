@@ -1,28 +1,17 @@
 <html>
 <head>
-	<title>Caption Access</title>
+	<title>Contact Us — Caption Access</title>
 	<meta charset="UTF-8">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600italic,700,800' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="sky-forms.css" type="text/css">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
-<body class="homepage">
+<body>
 	<div class="container">
-		<div id="header">
-			<p>Make Your Meetings, Classes, Webinars & Videos Accessible Today!</p>
-			<div id="call-to-action-wrapper">
-				<div id="call-to-action" class="button">
-					<span class="component1">Get CaptionAccess</span><span class="component2">&rsaquo;</span>
-				</div>
-				<div id="call-to-action-areas">
-					<span class="component3">for</span>
-					<span class="component4">&nbsp;</span>
-				</div>
-			</div> <!-- call-to-action-wrapper -->
-			<hr class="translucent-white">
-		</div> <!-- header -->
-		<div id="nav-bar">
+		<div id="nav-bar" class="inner">
 			<div id="logo"></div>
 			<ul id="nav-menu">
 				<li class="level1item">
@@ -71,49 +60,163 @@
 				<li><a href="contact.html">Contacts Us</a></li>
 			</ul>
 		</div> <!-- nav-bar -->
+		<hr class="translucent-white inner">
+		<div id="header" class="inner">
+			<div class="content">
+				<p>Make Your Meetings, Classes, Webinars & Videos Accessible Today!</p>
+				<div id="call-to-action-wrapper">
+					<div id="call-to-action" class="button">
+						<span class="component1">Get CaptionAccess</span><span class="component2">&rsaquo;</span>
+					</div>
+				</div> <!-- call-to-action-wrapper -->
+			</div>
+		</div> <!-- header -->
 	</div> <!-- container -->
 	<div class="container">
 		<div class="content">
-			<ul id="features">
-				<li id="callout1">
-					<h2 class="header">What</h2>
-					<hr class="translucent-black">
-					<div class="description">
-						We caption almost anything! Name your captioning need — live events, videos, website media — and we'll deliver.
+			<section class="">
+				<div class="container">
+					<div class="row">
+						<form action="/contact/contactProcess" method="post" name="sky-form" class="sky-form" id="sky-form" >
+							<header>Have a captioning need or questions? Please send us a note using the form below
+							and someone from the CaptionAccess team will be in touch soon!</header>
+							<fieldset>
+								<div class="row">
+									<section class="col col-6">
+										<label class="input">
+											<i class="icon-append icon-user"></i>
+											<input type="text" name="firstname" placeholder="First name">
+										</label>
+									</section>
+									<section class="col col-6">
+										<label class="input">
+											<i class="icon-append icon-user"></i>
+											<input type="text" name="lastname" placeholder="Last name">
+										</label>
+									</section>
+								</div>
+
+								<div class="row">
+									<section class="col col-6">
+										<label class="input">
+											<i class="icon-append icon-envelope-alt"></i>
+											<input type="email" name="email" placeholder="Email address">
+											<b class="tooltip tooltip-bottom-right">Please make sure this is correct so we can reach you</b>
+										</label>
+									</section>
+									<section class="col col-6">
+										<label class="input">
+											<i class="icon-append icon-phone"></i>
+											<input type="phone" name="phone" placeholder="Phone/text number">
+											<b class="tooltip tooltip-bottom-right">Please make sure this is correct so we can reach you</b>
+										</label>
+									</section>
+								</div>
+
+								<div class="row">
+									<section class="col col-6">
+										<label class="input">
+											<i class="icon-append icon-building"></i>
+											<input type="company" name="company"
+												   placeholder="Company or organization name">
+											<b class="tooltip tooltip-bottom-right">Please provide the name of the company or organization</b>
+										</label>
+									</section>
+									<section class="col col-6">
+										<label class="input">
+											<i class="icon-append icon-calendar"></i>
+											<input type="event_date" name="date" placeholder="Date of event">
+											<b class="tooltip tooltip-bottom-right">Please provide the date that services are needed</b>
+										</label>
+									</section>
+								</div>
+								<div class="row">
+									<section class="col col-6">
+										<label class="input">
+											<i class="icon-append icon-envelope"></i>
+											<input type="address" name="address"
+												   placeholder="Mailing address: street, state, zip, and country">
+											<b class="tooltip tooltip-bottom-right">Please provide the address where the services are needed</b>
+										</label>
+									</section>
+									<section class="col col-6">
+									</section>
+								</div>
+
+								<div class="row">
+									<p style="padding-left:20px;">How did you hear about us?</p>
+									<section class="col col-6">
+										<label class="checkbox"><input type="checkbox" name="heard_online_search"
+																	   id="heard_online_search"><i></i>Internet search</label>
+										<label class="checkbox"><input type="checkbox" name="heard_newsletter"
+																	   id="heard_newsletter"><i></i>Email newsletter</label>
+										<label class="checkbox"><input type="checkbox" name="heard_article"
+																	   id="heard_article"><i></i>Article or blog</label>
+									</section>
+									<section class="col col-6">
+										<label class="checkbox"><input type="checkbox" name="heard_social_media"
+																	   id="heard_social_media"><i></i>Social media</label>
+										<label class="checkbox"><input type="checkbox" name="heard_friend"
+																	   id="heard_friend"><i></i>Friend or colleague</label>
+										<label class="checkbox"><input type="checkbox" name="heard_other"
+																	   id="heard_other"><i></i>Other</label>
+									</section>
+								</div>
+
+								<div class="row">
+									<p style="padding-left:20px;">What type of captioning do you need?</p>
+									<section class="col col-6">
+										<label class="checkbox"><input type="checkbox" name="type_verbatim"
+																	   id="type_verbatim"><i></i>Verbatim real-time (CART)</label>
+										<label class="checkbox"><input type="checkbox" name="type_condensed"
+																	   id="type_condensed"><i></i>Condensed real-time (TypeWell/C-Print)
+										</label>
+									</section>
+									<section class="col col-6">
+										<label class="checkbox"><input type="checkbox" name="type_transcription"
+																	   id="type_transcription"><i></i>Transcription</label>
+										<label class="checkbox"><input type="checkbox" name="type_unsure"
+																	   id="type_unsure"><i></i>Unsure, please help!</label>
+									</section>
+								</div>
+
+								<div class="row">
+									<p style="padding-left:20px;">What type of setting is this for?</p>
+									<section class="col col-6">
+										<label class="checkbox"><input type="checkbox" name="setting_meeting"
+																	   id="setting_meeting"><i></i>Meeting</label>
+										<label class="checkbox"><input type="checkbox" name="setting_class"
+																	   id="setting_class"><i></i>Class</label>
+										<label class="checkbox"><input type="checkbox" name="setting_webinar"
+																	   id="setting_webinar"><i></i>Webinar</label>
+									</section>
+									<section class="col col-6">
+										<label class="checkbox"><input type="checkbox" name="setting_podcast"
+																	   id="setting_podcast"><i></i>Podcast</label>
+										<label class="checkbox"><input type="checkbox" name="setting_video"
+																	   id="setting_video"><i></i>Video</label>
+										<label class="checkbox"><input type="checkbox" name="setting_other"
+																	   id="setting_other"><i></i>Other (Please describe below)
+										</label>
+									</section>
+								</div>
+
+								<div class="row">
+									<section>
+										<label class="textarea">
+											<i class="icon-append icon-comment"></i>
+											<textarea rows="4" name="message" id="message"
+													  placeholder="Please let us know about your captioning needs or request a quote"></textarea>
+											<b class="tooltip tooltip-bottom-right">Please further explain your captioning needs, request a quote, or ask questions you have about all this...we're here to help!</b>
+										</label>
+									</section>
+								</div>
+								<input type="submit" name="submit" class="button" value="submit" id="submit" />
+							</fieldset>
+						</form>
 					</div>
-				</li>
-				<li id="callout2">
-					<h2 class="header">Why</h2>
-					<hr class="translucent-black">
-					<div class="description">
-						Because! Captioning benefits you, from communication access to improved documentation and online search results.
-					</div>
-				</li>
-				<li id="callout3">
-					<h2 class="header">Where</h2>
-					<hr class="translucent-black">
-					<div class="description">
-						Just about anywhere! CaptionAccess provides captioning services remotely. If you've got Internet, you've got captions!
-					</div>
-				</li>
-				<li id="callout4">
-					<h2 class="header">When</h2>
-					<hr class="translucent-black">
-					<div class="description">
-						Anytime! CaptionAccess works with your schedule. We're up late, we're up early. We're there for you!
-					</div>
-				</li>
-			</ul> <!-- features -->
-			<div id="about-blurb">
-				<img src="images/logo-outline.jpg" alt="">
-				<h1>CaptionAccess is owned and run by deaf and hard-of-hearing people.</h1>
-				<p>Why is that a big deal? Because we use captioning services ourselves — it's a communication lifeline for us. We know what first-class captioning means and how important captioning is to people who need it. Our business philosophy and practices are pretty simple: Treat customers how we want to be treated ourselves.</p>
-				<div class="author">
-					<img class="author-avatar" src="images/avatar-bill.jpg" alt="">
-					<div class="author-name">Bill Graham</div>
-					<div class="author-title">Founder</div>
-				</div> <!-- author -->
-			</div> <!-- about-blurb -->
+				</div>
+			</section>
 		</div> <!-- content -->
 		<div id="testimonials" class="blue">
 			<div class="content">
@@ -206,7 +309,7 @@
 					<hr class="translucent-black">
 					<div id="copyright">
 						<span>© 2014 CaptionAccess</span><br />
-    					Captioning the world, one word at a time.
+						Captioning the world, one word at a time.
 					</div>
 				</div> <!-- legal -->
 				<ul id="contact">

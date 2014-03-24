@@ -14,6 +14,7 @@ hr.translucent-white 						{ 	border: none;
 
 hr.translucent-black 						{ 	border: none;
 												border-bottom: 1px rgba(0,0,0,0.4) solid;
+												float: left;
 												width: 50px;
 												height: 0;
 												margin: 0 auto;
@@ -25,7 +26,7 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 
 .container 									{ 	width: 100%;
 												background-color: #FFF;
-												overflow: auto; }
+												overflow: visible; }
 
 .container:first-child 						{ 	background: none; }
 
@@ -38,6 +39,14 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 .content 									{ 	width: 960px;
 												margin: 0 auto; }
 
+.submenu 									{ 	display: none; padding: 7px; background-color: #2377AF; overflow: auto; width: 210px; position: absolute; top: 20px; border-radius: 4px; z-index: 9999;
+}
+
+.submenu a 									{ 	font-family: "Open Sans", sans-serif !important; font-size: 16px !important; color: #333 !important; text-transform: none !important; letter-spacing: 0 !important; }
+
+.submenu a:hover							{ 	text-decoration: underline !important; color: #999 !important; }
+
+.submenu li 								{ 	background-color: #FFF; float: left; padding: 15px; border-bottom: 1px #EEE solid; width: 210px; box-sizing: border-box; }
 
 #testimonials 								{ 	overflow: hidden;
 												margin-top: 55px; }
@@ -53,6 +62,7 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 												color: #FFF;
 												font-size: 16px;
 												overflow: auto;
+												display: table;
 												float: left;
 												width: 960px;
 												box-sizing: border-box; }
@@ -61,16 +71,20 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 												font-style: italic; }
 
 .testimonial .author-name 					{ 	font-size: 12px;
-												font-weight: 400;
+												font-weight: 600;
 												margin-top: 10px; }
 
 .testimonial .author-title 					{ 	font-weight: 300;
-												font-size: 12px; }
+												font-size: 12px;
+												width: 200px; }
 
 
 .testimonial p 								{ 	line-height: 30px;
 												width: 610px;
-												float: right;
+												display: table-cell;
+  												vertical-align: middle;
+												min-height: 260px;
+												margin-top: 25px;
 												font-weight: 300; }
 
 .blue 										{	background-color: #5A77CD; }
@@ -157,28 +171,40 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 
 #logo 										{ 	background: url(images/logo.png) left center no-repeat;
 												float: left;
+												cursor: pointer;
 												margin-top: 14px;
 												margin-left: 25px;
 												width: 400px;
 												height: 80px; }
 
-#nav-bar 									{ transition: height .7s; overflow: hidden; }
-
-#nav-bar a 									{ 	color: #FFF;
-												font-size: 12px;
-												font-family: 'Montserrat', sans-serif;
-												margin-right: 40px;
-												text-transform: uppercase;
-												letter-spacing: 2px;
-												text-decoration: none; }
-
-#nav-bar a:hover 							{ 	border-bottom: thin #FFF solid;
-												padding-bottom: 10px; }
+#nav-bar 									{ transition: height .7s; overflow: visible; z-index: 100; }
 
 #nav-menu 									{ 	width: 790px;
 												margin-top: 47px;
 												transition: margin-top .7s;
 												float: right; }
+
+#nav-menu li 								{ 	position: relative; }
+
+#nav-menu li a 								{ 	color: #FFF;
+												font-size: 12px;
+												font-family: 'Montserrat', sans-serif;
+												margin-right: 20px;
+												padding: 10px;
+												transition: background-color .4s;
+												text-transform: uppercase;
+												letter-spacing: 2px;
+												text-decoration: none; }
+
+#nav-menu li a:hover 						{	border-bottom: thin #FFF solid; }
+
+#nav-menu li a.fixed:hover					{	border-bottom: thin #444 solid; }
+
+#nav-menu li a.active 						{	background-color: #2377AF;
+												color: #FFF;
+												border-radius: 4px; }
+
+#nav-menu li a.active:hover 						{	border-bottom: none; }
 
 #nav-bar.fixed 								{ 	position: fixed;
 												top: 0;
@@ -200,7 +226,7 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 #nav-bar.fixed #logo						{ 	background: url(images/logo_icon.jpg) center no-repeat;
 												float: left;
 												margin-top: 0px !important;
-												width: 50px;
+												width: 175px;
 												height: 50px; }
 
 #features 									{ 	width: 100%;
@@ -256,14 +282,15 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 #about-blurb .author-title 					{	font-family: sans-serif;
 												font-size: 12px;
 												color: #b2b2b2; }
-#footer 									{ 	margin-top: 60px; }
+
+#footer 									{ 	padding-top: 60px;
+												overflow: auto; }
 
 #legal 										{	width: 550px;
 												overflow: auto;
 												float: left; }
 
-#legal .logo 								{ 	margin-bottom: 30px;
-												 }
+#legal .logo 								{ 	margin-bottom: 30px; }
 
 #legal p 									{ 	width: 350px;
 												float: left;
@@ -364,7 +391,7 @@ ul#content_grid 						{	width: 100%;
 
 #content_grid li:nth-child(even)	{ 	margin-right: 0; }
 
-#content_grid li:nth-last-child(-n+2) { border: none; margin-bottom: 20px; }
+#content_grid li.closer 		{ border: none; margin-bottom: 20px; }
 
 #content_grid li .header 		{ 	font-weight: 800;
 										font-size: 30px;
@@ -375,8 +402,18 @@ ul#content_grid 						{	width: 100%;
 
 #content_grid li .description	{ font-size: 15px; line-height: 28px; color: #333; }
 
+#content_grid li h6 								{ 	position: relative;
+														top: -25px;
+														font-size: 15px;
+														font-weight: normal; }
+
 #header.inner, #nav-bar.inner						{ background-color: #41a4e6; }
-#nav-bar.fixed 										{ background-color: #FFF; }
+#nav-bar.inner.fixed								{ background-color: #FFF; }
+#nav-bar.inner.fixed #logo							{ 	background: url(images/logo_icon.jpg) center no-repeat;
+														float: left;
+														margin-top: 0px !important;
+														width: 175px;
+														height: 50px; }
 #header.inner p 									{ font-size: 18px; font-weight: normal; display: inline-block; text-align: left; width: 745px; }
 #header.inner #call-to-action-wrapper				{ display: inline-block; margin-top: 13px; margin-bottom: 13px; }
 #header.inner .button 								{ background-image: linear-gradient(to top, #f2c63a, #f7db53); color: #7c6c30; }
@@ -389,3 +426,13 @@ ul#content_grid 						{	width: 100%;
 #content_grid li:nth-child(2) .header i { background-color: #f6a320; }
 #content_grid li:nth-child(3) .header i { background-color: #8936f0; }
 #content_grid li:nth-child(4) .header i { background-color: #4eb057; }
+#content_grid.tall li 					{ height: 700px; }
+#content_grid.tall h2 					{ font-size: 25px; }
+#content_grid li.tall 					{ height: 700px; }
+#content_grid li.tall2 					{ height: 800px; }
+#content_grid h2.tall2 					{ min-height: 85px; }
+#content_grid h2.tall3 					{ min-height: 125px; }
+#content_grid h2.tall4 					{ min-height: 165px; }
+#content_grid a 						{ text-decoration: none; color: #1A879C; }
+#content_grid a:hover					{ text-decoration: underline; color: #94B6C0; }
+#content_grid a:visited 				{ text-decoration: none; color: #589574; }
