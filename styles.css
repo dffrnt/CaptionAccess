@@ -39,14 +39,14 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 .content 									{ 	width: 960px;
 												margin: 0 auto; }
 
-.submenu 									{ 	display: none; padding: 7px; background-color: #2377AF; overflow: auto; width: 210px; position: absolute; top: 20px; border-radius: 4px; z-index: 9999;
+.submenu 									{ 	display: none; padding: 7px; background-color: #2377AF; overflow: auto; width: 215px; position: absolute; top: 20px; border-radius: 4px; z-index: 9999;
 }
 
 .submenu a 									{ 	font-family: "Open Sans", sans-serif !important; font-size: 16px !important; color: #333 !important; text-transform: none !important; letter-spacing: 0 !important; }
 
 .submenu a:hover							{ 	text-decoration: underline !important; color: #999 !important; }
 
-.submenu li 								{ 	background-color: #FFF; float: left; padding: 15px; border-bottom: 1px #EEE solid; width: 210px; box-sizing: border-box; }
+.submenu li 								{ 	background-color: #FFF; float: left; padding: 15px; border-bottom: 1px #EEE solid; width: 215px; box-sizing: border-box; }
 
 #testimonials 								{ 	overflow: hidden;
 												margin-top: 55px; }
