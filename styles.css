@@ -7,6 +7,9 @@ ul 											{ 	list-style-type: none; }
 
 li 											{	float: left; }
 
+sup 										{ 	font-size: 12px;
+												font-weight: normal; }
+
 hr.translucent-white 						{ 	border: none;
 												border-bottom: 1px rgba(255,255,255,0.3) solid;
 												margin-top: 50px;
@@ -14,7 +17,6 @@ hr.translucent-white 						{ 	border: none;
 
 hr.translucent-black 						{ 	border: none;
 												border-bottom: 1px rgba(0,0,0,0.4) solid;
-												float: left;
 												width: 50px;
 												height: 0;
 												margin: 0 auto;
@@ -37,12 +39,13 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 												border-color: #9C7B2E !important; }
 
 .content 									{ 	width: 960px;
-												margin: 0 auto; }
+												margin: 0 auto;
+												overflow: hidden; }
 
 .submenu 									{ 	display: none; padding: 7px; background-color: #2377AF; overflow: auto; width: 215px; position: absolute; top: 20px; border-radius: 4px; z-index: 9999;
 }
 
-.submenu a 									{ 	font-family: "Open Sans", sans-serif !important; font-size: 16px !important; color: #333 !important; text-transform: none !important; letter-spacing: 0 !important; }
+.submenu a 									{ 	font-family: "Open Sans", sans-serif !important; font-size: 16px !important; color: #333 !important; text-transform: none !important; letter-spacing: 0 !important; background: none !important; border-radius: 0 !important; }
 
 .submenu a:hover							{ 	text-decoration: underline !important; color: #999 !important; }
 
@@ -179,7 +182,7 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 
 #nav-bar 									{ transition: height .7s; overflow: visible; z-index: 100; }
 
-#nav-menu 									{ 	width: 790px;
+#nav-menu 									{ 	width: 725px;
 												margin-top: 47px;
 												transition: margin-top .7s;
 												float: right; }
@@ -196,11 +199,11 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 												letter-spacing: 2px;
 												text-decoration: none; }
 
-#nav-menu li a:hover 						{	border-bottom: thin #FFF solid; }
-
+/*#nav-menu li a:hover 						{	border-bottom: thin #FFF solid; }
+*/
 #nav-menu li a.fixed:hover					{	border-bottom: thin #444 solid; }
 
-#nav-menu li a.active 						{	background-color: #2377AF;
+#nav-menu li a:hover, #nav-menu li a.active 						{	background-color: #2377AF;
 												color: #FFF;
 												border-radius: 4px; }
 
@@ -283,14 +286,13 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 												font-size: 12px;
 												color: #b2b2b2; }
 
-#footer 									{ 	padding-top: 60px;
-												overflow: auto; }
+#footer 									{ 	padding-top: 60px; }
 
 #legal 										{	width: 550px;
 												overflow: auto;
 												float: left; }
 
-#legal .logo 								{ 	margin-bottom: 30px; }
+#legal .logo 								{ 	margin-bottom: 0px; }
 
 #legal p 									{ 	width: 350px;
 												float: left;
@@ -312,19 +314,21 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 												left: 60px;
 												display: inline-block;
 												line-height: 18px;
-												margin-top: 25px;
-												margin-bottom: 50px; }
+												margin-top: 65px;
+												margin-bottom: 50px;
+												font-weight: bold; }
 
 #copyright span 							{ 	position: relative;
 												font-size: 13px;
-												left: -13px; }
+												left: -13px;
+												font-weight: normal; }
 
 #contact 									{	float: right;
-												width: 260px;
-												margin-top: 70px; }
+												width: 220px;
+												margin-top: 48px; }
 
 #contact li 								{ 	float: none;
-												margin-bottom: 50px; }
+												margin-bottom: 2px; }
 
 
 #contact li img 							{ 	position: relative;
@@ -332,7 +336,11 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 												left: -30px; }
 
 #contact li p 								{ 	font-weight: 300;
-												font-size: 18px;
+												font-size: 16px;
+												position: relative;
+												left: 10px;
+												color: #555;
+												font-family: sans-serif;
 												line-height: 20px; }
 
 #typed-cursor{
