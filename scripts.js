@@ -30,14 +30,14 @@ $window
 	})
 
 // nav menu
-// var $activeMenu = ''
-// $navlinks.hoverIntent( function() {
-// 	$activeMenu = $( $(this).children()[0] )
-// 	$activeMenu.addClass( 'active' ).parent().find( 'ul.submenu' ).slideDown(300)
-// }, function() {
-// 	$activeMenu.removeClass( 'active' ).parent().find( 'ul.submenu' ).slideUp(50)
-// 	$activeMenu = ''
-// })
+var $activeMenu = ''
+$navlinks.hoverIntent( function() {
+	$activeMenu = $( $(this).children()[0] )
+	$activeMenu.addClass( 'active' ).parent().find( 'ul.submenu' ).slideDown(300)
+}, function() {
+	$activeMenu.removeClass( 'active' ).parent().find( 'ul.submenu' ).slideUp(50)
+	$activeMenu = ''
+})
 
 
 // testimonial slideshow

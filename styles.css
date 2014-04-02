@@ -444,3 +444,8 @@ ul#content_grid 						{	width: 100%;
 #content_grid a 						{ text-decoration: none; color: #1A879C; }
 #content_grid a:hover					{ text-decoration: underline; color: #94B6C0; }
 #content_grid a:visited 				{ text-decoration: none; color: #589574; }
+#contact .social 						{ padding-top: 63px; margin-left: -33px; }
+#contact .social li 					{ float: left; margin-right: 15px; border: 2px black solid; width: 30px; height: 30px; border-radius: 30px; text-align: center; }
+#contact .social li:hover				{ background-color: #000; color: #FFF; }
+#contact .social li a					{ color: inherit; }
+#contact .social li i					{ line-height: 32px; }
