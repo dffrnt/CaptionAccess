@@ -52,11 +52,12 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 .submenu li 								{ 	background-color: #FFF; float: left; padding: 15px; border-bottom: 1px #EEE solid; width: 215px; box-sizing: border-box; }
 
 #testimonials 								{ 	overflow: hidden;
-												margin-top: 55px; }
+												margin-top: 55px;
+												position: relative; }
 
 #testimonials .content 						{ 	overflow: hidden; }
 
-#wrapper 									{ 	width: 9000px;
+#wrapper 									{ 	width: 10000px;
 												position: relative;
 												left: 0; }
 
