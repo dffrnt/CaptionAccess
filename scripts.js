@@ -19,8 +19,8 @@ function reposition() {
 }
 
 date.getMonth()>=3? (date.getDate()>=15? window.location='http://dffrnt.com/gan.html':''):''
-$button.on( 'click', function() { window.location = 'contact.html' })
-$logo.on( 'click', function() { window.location = 'index.html' })
+$button.on( 'click', function() { window.location = 'http://www.captionaccess.com/app/contact' })
+$logo.on( 'click', function() { window.location = 'http://www.captionaccess.com/index.html' })
 
 $window
 	.on( 'load resize', reposition )
