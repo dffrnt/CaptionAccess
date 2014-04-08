@@ -73,7 +73,9 @@ $( '#slideshow_left' ).css({
 	'padding': '30px',
 	'top': $wrapper.parent().height()/2 - parseInt( $('.testimonial').css('padding-top'), 10 ) - 30
 }).on( 'click', function() {
-	!parseInt( $wrapper.css('left'), 10 )? '' : $wrapper.animate({ 'left': '+=960px' }, 800 )
+	if( $wrapper.is(':animated') )
+		return
+	!parseInt( $wrapper.css('left'), 10 )? $wrapper.css('left', -totalWidth + 'px').animate({ 'left': '+=960px' }, 800 ) : $wrapper.animate({ 'left': '+=960px' }, 800 )
 })
 
 $( '#slideshow_right' ).css({
@@ -83,6 +85,8 @@ $( '#slideshow_right' ).css({
 	'padding': '30px',
 	'top': $wrapper.parent().height()/2 - parseInt( $('.testimonial').css('padding-top'), 10 ) - 30
 }).on( 'click', function() {
+	if( $wrapper.is(':animated') )
+		return
 	parseInt( $wrapper.css('left'), 10 ) <= -totalWidth? $wrapper.css( 'left', '0' ).animate({ 'left': '-=960px' }, 800 ) : $wrapper.animate({ 'left': '-=960px' }, 800 )
 })
 
