@@ -73,7 +73,6 @@ $( '#slideshow_left' ).css({
 	'padding': '30px',
 	'top': $wrapper.parent().height()/2 - parseInt( $('.testimonial').css('padding-top'), 10 ) - 30
 }).on( 'click', function() {
-	console.log( parseInt( $wrapper.css('left'), 10 ) )
 	!parseInt( $wrapper.css('left'), 10 )? '' : $wrapper.animate({ 'left': '+=960px' }, 800 )
 })
 
