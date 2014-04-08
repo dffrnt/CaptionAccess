@@ -2,26 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3feb0bfb-d082-4902-9e04-b32975e0a6de" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aboutus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events.html" afterPath="$PROJECT_DIR$/events.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq.html" afterPath="$PROJECT_DIR$/faq.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inner_template.html" afterPath="$PROJECT_DIR$/inner_template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media.html" afterPath="$PROJECT_DIR$/media.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.html" afterPath="$PROJECT_DIR$/services.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testimonials.html" afterPath="$PROJECT_DIR$/testimonials.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="captionaccess_site.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396885108658" ignored="false" />
     <file path="/testimonials.html" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396885264513" ignored="false" />
-    <file path="/*.regexp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396893963531" ignored="false" />
+    <file path="/*.regexp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396936892469" ignored="false" />
     <file path="/about.html" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396885295663" ignored="false" />
     <file path="/services.html" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396886410423" ignored="false" />
-    <file path="$PROJECT_DIR$/../captionaccess/grails-app/views/layouts/generic.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396894180125" ignored="false" />
+    <file path="$PROJECT_DIR$/../captionaccess/grails-app/views/layouts/generic.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396933607656" ignored="false" />
     <file path="/generic.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396894179308" ignored="false" />
-    <file path="$PROJECT_DIR$/../captionaccess/target/work/web.xml.tmp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396894530041" ignored="false" />
+    <file path="$PROJECT_DIR$/../captionaccess/target/work/web.xml.tmp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396931966613" ignored="false" />
+    <file path="/index.html" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396934434436" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,80 +83,7 @@
     <favorites_list name="captionaccess_site" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="testimonials.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testimonials.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="257" column="60" selection-start="20623" selection-end="20623" vertical-scroll-proportion="-0.083333336">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="226" column="0" selection-start="14149" selection-end="14149" vertical-scroll-proportion="0.37644342">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="267" column="0" selection-start="18727" selection-end="18727" vertical-scroll-proportion="-10.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="355" column="0" selection-start="20637" selection-end="20637" vertical-scroll-proportion="-6.7916665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/events.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="240" column="0" selection-start="17066" selection-end="17066" vertical-scroll-proportion="-6.7916665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faq.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faq.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="284" column="0" selection-start="22040" selection-end="22040" vertical-scroll-proportion="-6.7916665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="media.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="240" column="0" selection-start="16628" selection-end="16628" vertical-scroll-proportion="-6.7916665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="245" column="0" selection-start="17335" selection-end="17335" vertical-scroll-proportion="-6.7916665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -173,14 +102,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/aboutus.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/faq.html" />
+        <option value="$PROJECT_DIR$/testimonials.html" />
         <option value="$PROJECT_DIR$/services.html" />
         <option value="$PROJECT_DIR$/media.html" />
-        <option value="$PROJECT_DIR$/faq.html" />
+        <option value="$PROJECT_DIR$/inner_template.html" />
         <option value="$PROJECT_DIR$/events.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/testimonials.html" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -344,7 +274,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -425,58 +355,58 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/services.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="245" column="0" selection-start="17335" selection-end="17335" vertical-scroll-proportion="-6.7916665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="240" column="0" selection-start="16628" selection-end="16628" vertical-scroll-proportion="-6.7916665">
+        <state line="186" column="35" selection-start="10346" selection-end="10346" vertical-scroll-proportion="3.2560976">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faq.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="284" column="0" selection-start="22040" selection-end="22040" vertical-scroll-proportion="-6.7916665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="240" column="0" selection-start="17066" selection-end="17066" vertical-scroll-proportion="-6.7916665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="355" column="0" selection-start="20637" selection-end="20637" vertical-scroll-proportion="-6.7916665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="267" column="0" selection-start="18727" selection-end="18727" vertical-scroll-proportion="-10.0">
+        <state line="244" column="35" selection-start="19614" selection-end="19614" vertical-scroll-proportion="0.87759817">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testimonials.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="257" column="60" selection-start="20623" selection-end="20623" vertical-scroll-proportion="-0.083333336">
+        <state line="245" column="31" selection-start="18696" selection-end="18696" vertical-scroll-proportion="0.9307159">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="0" selection-start="14149" selection-end="14149" vertical-scroll-proportion="0.37644342">
+        <state line="187" column="288" selection-start="13296" selection-end="13296" vertical-scroll-proportion="0.23787528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="200" column="35" selection-start="14202" selection-end="14202" vertical-scroll-proportion="0.9307159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inner_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="35" selection-start="12043" selection-end="12043" vertical-scroll-proportion="0.9307159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="200" column="35" selection-start="14640" selection-end="14640" vertical-scroll-proportion="0.9307159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="571" selection-start="6177" selection-end="6188" vertical-scroll-proportion="0.33256352">
           <folding />
         </state>
       </provider>
