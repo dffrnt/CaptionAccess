@@ -2,27 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3feb0bfb-d082-4902-9e04-b32975e0a6de" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events.html" afterPath="$PROJECT_DIR$/events.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq.html" afterPath="$PROJECT_DIR$/faq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inner_template.html" afterPath="$PROJECT_DIR$/inner_template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media.html" afterPath="$PROJECT_DIR$/media.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services.html" afterPath="$PROJECT_DIR$/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testimonials.html" afterPath="$PROJECT_DIR$/testimonials.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts.js" afterPath="$PROJECT_DIR$/scripts.js" />
     </list>
     <ignored path="captionaccess_site.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396885108658" ignored="false" />
     <file path="/testimonials.html" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396885264513" ignored="false" />
-    <file path="/*.regexp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396936892469" ignored="false" />
+    <file path="/*.regexp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396938474834" ignored="false" />
     <file path="/about.html" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396885295663" ignored="false" />
     <file path="/services.html" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396886410423" ignored="false" />
-    <file path="$PROJECT_DIR$/../captionaccess/grails-app/views/layouts/generic.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396933607656" ignored="false" />
+    <file path="$PROJECT_DIR$/../captionaccess/grails-app/views/layouts/generic.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396939220609" ignored="false" />
     <file path="/generic.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396894179308" ignored="false" />
-    <file path="$PROJECT_DIR$/../captionaccess/target/work/web.xml.tmp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396931966613" ignored="false" />
+    <file path="$PROJECT_DIR$/../captionaccess/target/work/web.xml.tmp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396939054462" ignored="false" />
     <file path="/index.html" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396934434436" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +102,7 @@
         <option value="$PROJECT_DIR$/events.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/scripts.js" />
       </list>
     </option>
   </component>
@@ -270,7 +262,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="36" width="1420" height="860" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -355,13 +347,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="35" selection-start="10346" selection-end="10346" vertical-scroll-proportion="3.2560976">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faq.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="244" column="35" selection-start="19614" selection-end="19614" vertical-scroll-proportion="0.87759817">
@@ -407,6 +392,20 @@
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="114" column="571" selection-start="6177" selection-end="6188" vertical-scroll-proportion="0.33256352">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="24" selection-start="2715" selection-end="2715" vertical-scroll-proportion="0.3654267">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="8" selection-start="4287" selection-end="4287" vertical-scroll-proportion="0.5196305">
           <folding />
         </state>
       </provider>
