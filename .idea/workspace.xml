@@ -2,25 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3feb0bfb-d082-4902-9e04-b32975e0a6de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sky-forms.css" afterPath="$PROJECT_DIR$/sky-forms.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts.js" afterPath="$PROJECT_DIR$/scripts.js" />
     </list>
     <ignored path="captionaccess_site.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397076503835" ignored="false" />
+    <file path="/Dummy.txt" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397545136013" ignored="false" />
     <file path="/testimonials.html" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396885264513" ignored="false" />
-    <file path="/*.regexp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397108876491" ignored="false" />
+    <file path="/*.regexp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397541553420" ignored="false" />
     <file path="/about.html" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396885295663" ignored="false" />
     <file path="/services.html" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396886410423" ignored="false" />
-    <file path="$PROJECT_DIR$/../captionaccess/grails-app/views/layouts/generic.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396939220609" ignored="false" />
-    <file path="/generic.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396894179308" ignored="false" />
-    <file path="$PROJECT_DIR$/../captionaccess/target/work/web.xml.tmp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397195105044" ignored="false" />
+    <file path="$PROJECT_DIR$/../captionaccess/grails-app/views/layouts/generic.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397544400139" ignored="false" />
+    <file path="/generic.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397542528847" ignored="false" />
+    <file path="$PROJECT_DIR$/../captionaccess/target/work/web.xml.tmp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397540972615" ignored="false" />
     <file path="/index.html" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1396934434436" ignored="false" />
     <file path="$PROJECT_DIR$/../captionaccess/grails-app/views/signup/index.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397076897912" ignored="false" />
-    <file path="$PROJECT_DIR$/../captionaccess/grails-app/conf/Config.groovy" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397077194218" ignored="false" />
-    <file path="$PROJECT_DIR$/../captionaccess/target/stacktrace.log" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397099740554" ignored="false" />
+    <file path="$PROJECT_DIR$/../captionaccess/grails-app/conf/Config.groovy" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397543523681" ignored="false" />
+    <file path="$PROJECT_DIR$/../captionaccess/target/stacktrace.log" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397540510183" ignored="false" />
     <file path="$PROJECT_DIR$/../captionaccess/grails-app/services/com/captionaccess/MailService.groovy" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397108861137" ignored="false" />
     <file path="$PROJECT_DIR$/../captionaccess/grails-app/controllers/com/captionaccess/ContactController.groovy" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397108873921" ignored="false" />
+    <file path="$PROJECT_DIR$/../captionaccess/grails-app/views/contact/index.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397543202855" ignored="false" />
+    <file path="/index.gsp" changelist="3feb0bfb-d082-4902-9e04-b32975e0a6de" time="1397543091575" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,7 @@
       <file leaf-file-name="sky-forms.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sky-forms.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="22" selection-start="681" selection-end="681" vertical-scroll-proportion="0.6512605">
+            <state line="438" column="19" selection-start="7758" selection-end="7758" vertical-scroll-proportion="0.40180588">
               <folding />
             </state>
           </provider>
@@ -118,8 +119,8 @@
         <option value="$PROJECT_DIR$/events.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/scripts.js" />
         <option value="$PROJECT_DIR$/sky-forms.css" />
+        <option value="$PROJECT_DIR$/scripts.js" />
       </list>
     </option>
   </component>
@@ -280,10 +281,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="36" width="1420" height="860" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -294,12 +296,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.671159" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.67027026" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -414,13 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="24" selection-start="2715" selection-end="2715" vertical-scroll-proportion="0.3654267">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="109" column="8" selection-start="4287" selection-end="4287" vertical-scroll-proportion="0.5196305">
@@ -428,9 +422,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="52" selection-start="793" selection-end="793" vertical-scroll-proportion="0.65645516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sky-forms.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="22" selection-start="681" selection-end="681" vertical-scroll-proportion="0.6512605">
+        <state line="438" column="19" selection-start="7758" selection-end="7758" vertical-scroll-proportion="0.40180588">
           <folding />
         </state>
       </provider>
