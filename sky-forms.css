@@ -5,10 +5,15 @@
 	font: 13px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #666;
 }
+.sky-form * {
+    margin: 0;
+    padding: 0;
+}
 .sky-form header {
 	display: block;
 	padding: 20px 30px;
 	border-bottom: 1px solid rgba(0,0,0,.1);
+    background: rgba(248,248,248,.9);
 	font-size: 25px;
 	font-weight: 300;
 	color: #232323;

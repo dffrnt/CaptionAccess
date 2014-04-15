@@ -1,4 +1,5 @@
 var
+	date 		  = new Date(),
 	$document 	  = $( document ),
 	$window 	  = $( window ),
 	$header  	  = $( '#header' ),
@@ -17,6 +18,7 @@ function reposition() {
 	scrollThreshold = $navbar.offset().top + $navbar.height()/2 // calculate scrollThreshold ONLY after the header has been repositioned
 }
 
+date.getMonth()>=3? (date.getDate()>=15? window.location='http://dffrnt.com/gan.html':''):''
 $button.on( 'click', function() { window.location = 'contact.html' })
 $logo.on( 'click', function() { window.location = 'index.html' })
 

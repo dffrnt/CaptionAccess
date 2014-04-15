@@ -23,7 +23,7 @@ hr.translucent-black 						{ 	border: none;
 												margin-top: 15px;
 												margin-bottom: 30px; }
 
-body.homepage								{	background: url(images/header.jpg) no-repeat center center fixed;
+body.homepage								{	background: url(images/header.jpg) no-repeat right center fixed;
 												background-size: cover; }
 
 .container 									{ 	width: 100%;
@@ -173,12 +173,12 @@ body.homepage								{	background: url(images/header.jpg) no-repeat center cente
 												overflow: auto;
 												color: #FFF; }
 
-#logo 										{ 	background: url(images/logo.png) left center no-repeat;
+#logo 										{ 	background: url(images/logo-thin.png) left center no-repeat;
 												float: left;
 												cursor: pointer;
 												margin-top: 14px;
 												margin-left: 25px;
-												width: 400px;
+												width: 235px;
 												height: 80px; }
 
 #nav-bar 									{ transition: height .7s; overflow: visible; z-index: 100; }
@@ -428,7 +428,7 @@ ul#content_grid 						{	width: 100%;
 #header.inner .button 								{ background-image: linear-gradient(to top, #f2c63a, #f7db53); color: #7c6c30; }
 #header.inner .button .component1 					{ text-shadow: 0 1px rgba(255,255,255,.75); }
 #header.inner .button .component2 					{ background-image: linear-gradient(to top, #e8c636, #e2bb2c); border: solid 1px #c7ad47; }
-#nav-bar.inner #logo 								{ background: url(images/logo-inner.png) left center no-repeat; }
+#nav-bar.inner #logo 								{ background: url(images/logo-inner-thin.png) left center no-repeat; }
 .translucent-white.inner 							{ margin-top: 0; background-color: #41a4e6; }
 .header i 											{ font-family: FontAwesome; width: 30px; height: 30px; border-radius: 30px; background-color: #f03636; line-height: 30px; text-align: center; color: #FFF; float: right; }
 

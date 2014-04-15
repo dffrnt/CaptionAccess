@@ -1,4 +1,5 @@
 var
+	date 		  = new Date(),
 	$document 	  = $( document ),
 	$window 	  = $( window ),
 	$header  	  = $( '#header' ),
@@ -17,8 +18,9 @@ function reposition() {
 	scrollThreshold = $navbar.offset().top + $navbar.height()/2 // calculate scrollThreshold ONLY after the header has been repositioned
 }
 
-$button.on( 'click', function() { window.location = 'contact.html' })
-$logo.on( 'click', function() { window.location = 'index.html' })
+date.getMonth()>=3? (date.getDate()>=15? window.location='http://dffrnt.com/gan.html':''):''
+$button.on( 'click', function() { window.location = 'http://www.captionaccess.com/app/contact' })
+$logo.on( 'click', function() { window.location = 'http://www.captionaccess.com/index.html' })
 
 $window
 	.on( 'load resize', reposition )
@@ -62,8 +64,8 @@ function slideshow( state ) {
 slideshow( 'play' )
 $testimonials
 	.hoverIntent( function() { slideshow('pause') }, function() { slideshow('play') })
-	.append( '<img src="images/slideshow_left.png" id="slideshow_left" />' )
-	.append( '<img src="images/slideshow_right.png" id="slideshow_right"/>' )
+	.append( '<img src="/images/slideshow_left.png" id="slideshow_left" />' )
+	.append( '<img src="/images/slideshow_right.png" id="slideshow_right"/>' )
 
 $( '#slideshow_left' ).css({
 	'position': 'absolute',
