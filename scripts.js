@@ -18,7 +18,7 @@ function reposition() {
 }
 
 $button.on( 'click', function() { window.location = 'contact.html' })
-$logo.on( 'click', function() { window.location = 'index.html' })
+$logo.on( 'click', function() { window.location = '/index.html' })
 
 $window
 	.on( 'load resize', reposition )
@@ -62,8 +62,8 @@ function slideshow( state ) {
 slideshow( 'play' )
 $testimonials
 	.hoverIntent( function() { slideshow('pause') }, function() { slideshow('play') })
-	.append( '<img src="images/slideshow_left.png" id="slideshow_left" />' )
-	.append( '<img src="images/slideshow_right.png" id="slideshow_right"/>' )
+	.append( '<img src="/images/slideshow_left.png" id="slideshow_left" />' )
+	.append( '<img src="/images/slideshow_right.png" id="slideshow_right"/>' )
 
 $( '#slideshow_left' ).css({
 	'position': 'absolute',
