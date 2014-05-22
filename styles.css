@@ -129,6 +129,9 @@ ul {
 	position: relative;
 	left: 2%;
 }
+.navbar {
+	border-radius: 0;
+}
 .navbar.default {
 	background: none;
 	border: none;
@@ -236,6 +239,7 @@ ul {
 	top: 0 !important;
 	position: fixed !important;
 	background-color: rgba(0, 0, 0, 0.4) !important;
+	transition: .4s background-color ease-in;
 }
 .navbar-collapse {
 	border: none; /*turn off menu top border*/
@@ -624,12 +628,15 @@ hr.translucent-black {
 		line-height: 40px;
 		height: 40px
 	}
-	.navbar-brand {
+	.navbar.inner .navbar-brand {
 		height: 80px;
 		background: url(images/logo-xs.png) 15px center no-repeat;
 	}
 	.navbar-toggle {
 		margin-top: 23px;
+	}
+	.navbar-fixed-top.opaque {
+		background-color: rgba(50, 50, 50, 0.95) !important;
 	}
 	#header.default {
 		padding-bottom: 0;
@@ -640,7 +647,16 @@ hr.translucent-black {
 	}
 	#header.inner p {
 		margin: 10px auto;
+		text-align: center;
 		line-height: 25px;
+	}
+	#header a.button-link {
+		display: block;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	#header button {
+		float: none!important;
 	}
 	#call-to-action-areas {
 		left: 30px;
@@ -702,6 +718,13 @@ hr.translucent-black {
 		line-height: 55px;
 	}
 }
+/* nexus */
+ @media(max-width:450px) {
+	.navbar.inner .navbar-brand {
+		background-size: 90%;
+		width: 55%!important;
+	}
+ }
 /* tablet (sm) */
  @media(min-width:768px) {
 	#features li {
