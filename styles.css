@@ -13,9 +13,11 @@ ul {
 	padding: 0; /*gets rid of the default left and right margins that prevent the container from stretching full-width*/
 }
 .jumbotron {
-	background-color: #555;
-	background: url(images/header.jpg) center right no-repeat;
+	background-image: url(images/header.jpg);
+	background-position: center right;
+	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: #555; /* we want a dark bg to show the content while the bg image is still in the process of loading in */
 	overflow: auto;
 	margin-bottom: 0; /*lines it up right on top of the navbar*/
 }
@@ -720,7 +722,7 @@ hr.translucent-black {
 }
 /* nexus */
  @media(max-width:450px) {
-	.navbar.inner .navbar-brand {
+	.navbar.default .navbar-brand, .navbar.inner .navbar-brand {
 		background-size: 90%;
 		width: 55%!important;
 	}

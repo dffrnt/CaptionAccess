@@ -23,9 +23,6 @@ var verticalCenter  = 	function() {
 							headerMsg.css({'margin-top': (headerHeight - headerMsg.outerHeight())/2})
 						}
 
-var headerAdjust    = 	function(mode) {
-							$('#content-grid').css({'margin-top': mode? 60 : headerHeight + 120})
-						}
 var opacityAdjust 	=	function() {
 							$('.navbar.default .navbar-toggle').on('click', function() {
 								!$('.navbar.default div.in').length? $('.navbar-fixed-top').addClass('opaque') : $('.navbar-fixed-top').removeClass('opaque')
@@ -42,9 +39,7 @@ $(function() {
 })
 
 $(window).on('resize load', function() {
-	headerHeight = header.height()
 	if($(window).width() <= 1100) {
-		headerAdjust()
 		if($(window).width() > 768) verticalCenter()
 		/* fix the navbar to the top */
 		$('.navbar.default').addClass('navbar-fixed-top')
@@ -52,7 +47,6 @@ $(window).on('resize load', function() {
 		/* remove all mobile-specific customizations */
 		$('.navbar').removeClass('navbar-fixed-top')
 		verticalCenter()
-		headerAdjust('reset')
 	}
 })
 
